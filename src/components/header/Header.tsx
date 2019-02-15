@@ -5,7 +5,7 @@ import './Header.css';
 class Header extends Component {
     render() {
         return (
-            <header class="topnav">
+            <header className="topnav">
                 <a id="logo" href="/">Home</a>
                 <a href="/">Profile</a>
                 <a href="/">Explore</a>

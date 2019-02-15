@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 //import { Link } from 'react-router-dom';
-import AddAdventure from './AddAdventure.jsx'
+import AddAdventure from './AddAdventure'
 import './Feed.css';
 
 class Feed extends Component {
@@ -8,17 +8,17 @@ class Feed extends Component {
         return (
             <div>
                 <AddAdventure />
-                <div class="post">
+                <div className="post">
                     <div>
                         <p>ADVENTURE HERE</p>
                     </div>
                 </div>
-                <div class="post">
+                <div className="post">
                     <div>
                         <p>ADVENTURE HERE</p>
                     </div>
                 </div>
-                <div class="post">
+                <div className="post">
                     <div>
                         <p>ADVENTURE HERE</p>
                     </div>

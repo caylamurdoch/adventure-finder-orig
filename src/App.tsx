@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Header from './components/header/Header.jsx';
-import Footer from './components/footer/Footer.jsx';
-import Feed from './components/feed/Feed.jsx';
-//import ReactContent from './components/ReactContent.jsx'
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import Feed from './components/feed/Feed';
+//import ReactContent from './components/ReactContent'
 import './App.css';
 
 class App extends Component {

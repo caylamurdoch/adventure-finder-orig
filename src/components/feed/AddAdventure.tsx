@@ -5,8 +5,8 @@ import './Feed.css';
 class AddAdventure extends Component {
     render() {
         return (
-            <a class="addAdventure" href="/">
-                <div class="post">
+            <a className="addAdventure" href="/">
+                <div className="post">
                     <p>Add Adventure</p>
                 </div>
             </a>
